@@ -1,0 +1,87 @@
+form{
+    width: 500px;
+    height: 350px;
+    background: white;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    margin: 0 30px 30px 30px;
+}
+
+h2{
+    margin-left: 60px;
+}
+#floatingTextarea2{
+    width: 400px;
+    margin: 10px;
+}
+.contact{
+    margin-left: 250px;
+}
+.map{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color:#ada8ab1f;
+}
+.Workplace{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+
+}
+.button-contact {
+    color: #fff;
+    background: rgba(1, 203, 217, 0.95);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+}
+.sim-button-contact {
+    line-height: 38px;
+    height: 38px;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.button-contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color: #4b4b4b;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+.button-contact:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.button-contact span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+h3{
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
